@@ -82,11 +82,11 @@ const profile = {
   },
 
   resume: {
-    available: false,
-    url: "/resume/Abhilash_Yada_Data_Engineer_Resume.pdf",
-    fileName: "Abhilash_Yada_Data_Engineer_Resume.pdf",
-    label: "Download Resume",
-  },
+  available: true,
+  url: "/resume/Abhilash_Yada_Data_Engineer_Resume.pdf",
+  fileName: "Abhilash_Yada_Data_Engineer_Resume.pdf",
+  label: "Download Resume",
+},
 
   education: {
     degree: "Bachelor of Technology (B.Tech)",
