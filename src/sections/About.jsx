@@ -43,8 +43,8 @@ const expertise = [
 
 const professionalDetails = [
   {
-    title: "{profile.employment.company}",
-    description: "Project Engineer · {profile.professional.title}ing",
+    title: profile.employment.company,
+    description: `${profile.employment.designation} · ${profile.employment.role}`,
     icon: Briefcase,
   },
   {
@@ -73,7 +73,7 @@ export default function About() {
           <SectionHeading
             eyebrow="Get to Know Me"
             title="About Me"
-            description="Turning complex data into reliable, actionable business insights through modern {profile.professional.title}ing practices."
+            description="Turning complex data into reliable, actionable business insights through modern data engineering practices."
           />
         </div>
 
@@ -101,7 +101,7 @@ export default function About() {
                 <span className="font-semibold text-accent">
                   {profile.professional.title} at Wipro
                 </span>
-                , working on enterprise {profile.professional.title}ing
+                , working on enterprise data engineering
                 solutions using Microsoft Fabric and modern
                 Lakehouse architectures.
               </p>
@@ -123,7 +123,7 @@ export default function About() {
 
               <p>
                 Beyond my professional responsibilities, I build
-                hands-on {profile.professional.title}ing projects to strengthen
+                hands-on data engineering projects to strengthen
                 my expertise in modern data platforms, automated
                 pipelines and end-to-end analytics solutions.
               </p>

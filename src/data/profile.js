@@ -42,7 +42,7 @@ const profile = {
 
   employment: {
     company: "Wipro Limited",
-    designation: "Project Engineer",
+    designation: "Developer",
     role: "Data Engineer",
     startYear: 2025,
     endYear: null,
