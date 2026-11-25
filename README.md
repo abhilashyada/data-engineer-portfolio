@@ -1,6 +1,14 @@
 
 # Abhilash Yada | Data Engineer Portfolio
 
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Visit_Website-22d3ee?style=for-the-badge&logo=vercel&logoColor=white)](https://abhilashyada.vercel.app/)
+
+## Live Website
+
+Explore my professional experience, technical skills, data engineering projects, and industry certifications.
+
+**Portfolio:** [abhilashyada.vercel.app](https://abhilashyada.vercel.app/)
+
 A modern, responsive professional portfolio showcasing my experience, technical expertise, data engineering projects, industry certifications, and professional journey.
 
 ## About Me
@@ -35,7 +43,7 @@ My professional interests include scalable data pipelines, Lakehouse architectur
 | Lucide React | Icons |
 | JavaScript | Application logic |
 | Git and GitHub | Version control |
-| Vercel | Planned deployment |
+| Vercel | Production hosting and automatic GitHub deployments |
 
 ## Portfolio Sections
 
