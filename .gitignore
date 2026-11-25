@@ -1,0 +1,51 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+coverage/
+.vite/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+*.local
+
+# Sensitive files
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Deployment configuration
+.vercel/
+.netlify/
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,48 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+>
+  <title>Abhilash Yada</title>
+
+  <defs>
+    <linearGradient
+      id="brandGradient"
+      x1="0%"
+      y1="0%"
+      x2="100%"
+      y2="100%"
+    >
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#22d3ee" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect
+    x="1"
+    y="1"
+    width="62"
+    height="62"
+    rx="14"
+    fill="#020617"
+    stroke="#334155"
+    stroke-width="2"
+  />
+
+  <!-- AY Monogram -->
+  <g
+    fill="none"
+    stroke="url(#brandGradient)"
+    stroke-width="5"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <!-- Letter A -->
+    <path d="M9 44 L19 20 L29 44 M13 35 H25" />
+
+    <!-- Letter Y -->
+    <path d="M35 20 L45 33 L55 20 M45 33 V44" />
+  </g>
+</svg>
